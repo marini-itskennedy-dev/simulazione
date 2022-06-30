@@ -1,0 +1,17 @@
+{
+  "name": "simulazioneits",
+  "version": "1.0.0",
+  "description": "// alcuni comandi utili: docker-compose build docker build backend docker-compose up -d docker-compose run backend docker-compose down",
+  "main": "backendApp.js",
+  "scripts": {
+    "start": "node backendApp.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "pg": "^8.7.3",
+    "querystring": "^0.2.1"
+  }
+}
