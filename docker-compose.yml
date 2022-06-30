@@ -1,7 +1,7 @@
 version: '3.9'
 services:
   backend:
-    build: ./backend/
+    build: ./simulazione
     restart: unless-stopped
     ports:
       - "80:8080"
