@@ -6,7 +6,7 @@ const app = express();
 
 const pool = new Pool({
     user: "itsuser",
-    host: "devo2021-marini.c9nj1x2p6gk5.eu-west-1.rds.amazonaws.com",
+    host: "database",
     database: "itsdb",
     password: "itsuser01",
     port: "5432"
@@ -168,6 +168,6 @@ app.post('/mysearch', async(req, res) => {
 
 //res.redirect('/search');
 
-app.listen(8080);
+app.listen(80);
 
 //pool.end();
