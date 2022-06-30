@@ -168,6 +168,6 @@ app.post('/mysearch', async(req, res) => {
 
 //res.redirect('/search');
 
-app.listen(80);
+app.listen(8080);
 
 //pool.end();
